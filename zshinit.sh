@@ -22,3 +22,9 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 echo "${YELLO} > Change default Shell ... ${END_COLOR}";
 
 chsh -s /bin/zsh
+
+echo "${YELLO} > Change default Style ... ${END_COLOR}";
+
+sed -i "s/robbyrussell/agnoster/g" ~/.zshrc
+
+source ~/.zshrc
