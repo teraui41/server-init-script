@@ -32,4 +32,4 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-echo "${WHITE_BG} > Completed ... ${END_COLOR}";
+echo "${WHITE_BG} > Install completed ... ${END_COLOR}";

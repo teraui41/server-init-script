@@ -31,4 +31,4 @@ sed -i "s/robbyrussell/agnoster/g" ~/.zshrc
 
 source ~/.zshrc
 
-echo "${WHITE_BG} > Completed ... ${END_COLOR}";
+echo "${WHITE_BG} > Install completed ... ${END_COLOR}";
