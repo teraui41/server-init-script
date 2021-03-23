@@ -4,8 +4,8 @@ YELLO="\33[33m"
 
 echo "${WHITE_BG} > Start install Redis ... ${END_COLOR}";
 
-brew install redis
+sudo apt-get install redis-server
 
-brew services start redis
+redis-server
 
 echo "${WHITE_BG} > Install completed ... ${END_COLOR}";
