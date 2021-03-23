@@ -1,3 +1,5 @@
+# Ubuntu install zsh shell
+
 WHITE_BG="\033[47;30m"
 END_COLOR="\033[0m"
 YELLO="\33[33m"
