@@ -30,3 +30,5 @@ echo "${YELLO} > Change default Style ... ${END_COLOR}";
 sed -i "s/robbyrussell/agnoster/g" ~/.zshrc
 
 source ~/.zshrc
+
+echo "${WHITE_BG} > Completed ... ${END_COLOR}";
