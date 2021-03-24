@@ -20,3 +20,5 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot;
 
 sudo certbot --nginx;
 
+# Add ssl to domain
+# sudo certbot --nginx -d jenkins.example.com
